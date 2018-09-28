@@ -14,9 +14,11 @@ class LandingPage extends Component {
                         <div className='banner-text'>
                             <h1>Front-end Web Developer</h1>
                             <hr />
+                            
                             <p>HTML | CSS | JavaScript | React | Node.js | Express | MongoDB </p>
-
+                            
                         </div>
+
                     </Cell>
                 </Grid>
             </div>
