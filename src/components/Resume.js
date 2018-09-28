@@ -4,7 +4,7 @@ class Resume extends Component {
     state = {  }
     render() { 
         return ( 
-            <div>
+            <div className='main-page'>
                 <h1>Resume page</h1>
             </div>
          );

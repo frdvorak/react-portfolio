@@ -4,7 +4,7 @@ class Aboutme extends Component {
     state = {  }
     render() { 
         return ( 
-            <div>
+            <div className='main-page'>
                 <h1>Aboutme page</h1>
             </div>
          );

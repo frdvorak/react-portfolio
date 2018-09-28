@@ -4,6 +4,14 @@ import { Layout, Header, Drawer, Content, Navigation } from 'react-mdl';
 import Main from './components/Main';
 import {Link} from 'react-router-dom';
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faStroopwafel, faPen } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faStroopwafel, faPen);
+
+
+
 class App extends Component {
   render() {
     return (
@@ -11,18 +19,20 @@ class App extends Component {
       <Layout>
           <Header className='header-color' title="Title" scroll>
               <Navigation>
-                  <Link to="/resume">Resume</Link>
-                  <Link to="/aboutme">About Me</Link>
-                  <Link to="/projects">Projects</Link>
-                  <Link to="/contact">Contact</Link>
+                    <Link to="/">Home</Link>
+                    <Link to="/resume">Resume</Link>
+                    <Link to="/aboutme">About Me</Link>
+                    <Link to="/projects">Projects</Link>
+                    <Link to="/contact">Contact</Link>
               </Navigation>
           </Header>
           <Drawer title="Title">
               <Navigation>
-                   <Link to="/resume">Resume</Link>
-                   <Link to="/aboutme">About Me</Link>
-                   <Link to="/projects">Projects</Link>
-                   <Link to="/contact">Contact</Link>
+                    <Link to="/">Home</Link>
+                    <Link to="/resume">Resume</Link>
+                    <Link to="/aboutme">About Me</Link>
+                    <Link to="/projects">Projects</Link>
+                    <Link to="/contact">Contact</Link>
               </Navigation>
           </Drawer>
           <Content>

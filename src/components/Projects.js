@@ -4,7 +4,7 @@ class Projects extends Component {
     state = {  }
     render() { 
         return ( 
-            <div>
+            <div className='main-page'>
                 <h1>Projects page</h1>
             </div>
          );
