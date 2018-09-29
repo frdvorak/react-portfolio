@@ -9,7 +9,6 @@ class Contact extends Component {
     render() { 
         return ( 
             <div className='main-page contact-body'>
-                <h1>Contact page</h1>
                 <Grid className='contact-grid'>
                     <Cell col={6}>
                         <h2>Frank Dvorak</h2>
@@ -18,7 +17,7 @@ class Contact extends Component {
                     </Cell>
 
                     <Cell col={6}>
-                    <h2>Contact Me</h2>
+                    <h2>Contacts</h2>
                     <hr/>
                     <List className='contact-list'>
                         <ListItem>
