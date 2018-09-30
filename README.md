@@ -1,3 +1,10 @@
+Blank portfolio website created with React, React Router and styled with React-MDL, 3 pages + sidebar.
+
+![page1](https://user-images.githubusercontent.com/40566364/46243838-5c148100-c3d8-11e8-81f5-3f426acf8b4c.jpg)
+![page3](https://user-images.githubusercontent.com/40566364/46243840-5cad1780-c3d8-11e8-8269-05292b2827b7.jpg)
+![page4](https://user-images.githubusercontent.com/40566364/46243845-5dde4480-c3d8-11e8-95b6-839ea6bc5cfa.jpg)
+![page2](https://user-images.githubusercontent.com/40566364/46243846-5f0f7180-c3d8-11e8-87e4-42bcf1f95bb3.jpg)
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
