@@ -1,5 +1,5 @@
 import React from 'react';
-import {Switch, Route} from 'react-router-dom';
+import {Switch, Route, Redirect} from 'react-router-dom';
 
 import LandingPage from './LandingPage';
 import Aboutme from './Aboutme';
@@ -9,11 +9,15 @@ import Resume from './Resume';
 
 const Main = () => (
     <Switch>
-        <Route exact path="/" component={LandingPage}/>
-        <Route exact path="/aboutme" component={Aboutme}/>
-        <Route exact path="/contact" component={Contact}/>
-        <Route exact path="/projects" component={Projects}/>
-        <Route exact path="/resume" component={Resume}/>
+        <Redirect exact from="/" to="/dashboard" />
+        <Redirect exact from="https://frdvorak.github.io/react-portfolio/" to="/dashboard" />
+        <Redirect exact from="https://frdvorak.github.io/react-portfolio" to="/dashboard" />
+        <Route exact path="/dashboard" component={LandingPage} />
+        <Route exact path="/react-portfolio/" component={LandingPage}/>
+        <Route exact path="/react-portfolio/aboutme" component={Aboutme}/>
+        <Route exact path="/react-portfolio/contact" component={Contact}/>
+        <Route exact path="/react-portfolio/projects" component={Projects}/>
+        <Route exact path="/react-portfolio/resume" component={Resume}/>
     </Switch>
 );
 
